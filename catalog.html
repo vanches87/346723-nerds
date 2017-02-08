@@ -2,32 +2,37 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
     <header class="page-header">
-      <div class="page-header-logo">
-        <img src="img/logo.png" width="160" height="65" alt="logo">
+      <div class="container clearfix">
+        <div class="page-header-logo">
+          <img src="img/logo.png" width="160" height="65" alt="logo">
+        </div>
+        <nav class="page-header-nav">
+          <ul>
+            <li>Студия</li>
+            <li>Клиенты</li>
+            <li>Магазин</li>
+            <li>Контакты</li>
+          </ul>
+        </nav>
+        <div class="basket">
+        <a href="#">Корзина</a>
+        </div>
       </div>
-      <nav class="page-header-nav">
-        <ul>
-          <li>Студия</li>
-          <li>Клиенты</li>
-          <li>Магазин</li>
-          <li>Контакты</li>
-        </ul>
-      </nav>
-      <a href="#">Корзина</a>
     </header>
     <main>
-      <div class="subtitle">
+      <div class="subtitle container clearfix">
         <h1>Магазин готовых шаблонов</h1>
       </div>
       <div class="container-left">
-        <div class="slider">
+        <div class="slider container clearfix">
           <p>Стоимость:</p><br>
-          <div class="filtr">
+          <div class="filtr ">
             <div class="stripe"></div>
             <div class="slide-1"></div>
             <div class="slide-2"></div>
@@ -59,14 +64,14 @@
           </form>
         </div>
       </div>
-      <div class="section">
+      <div class="section container clearfix">
         <span >Сортировать:</span>
         <div class="row">
           <a href="#">по цене</a>
           <a href="#">по типу</a>
           <a href="#">по названию</a>
         </div>
-        <div class="section-1">
+        <div class="section-1 container clearfix">
           <img src="img/sedona.jpg" width="360" height="618" alt="sedona">
           <div class="content1">
             <h3>Sedona</h3>
@@ -74,7 +79,7 @@
             <a href="#">9900 РУБ.</a>
           </div>
         </div>
-        <div class="section-2">
+        <div class="section-2 container clearfix">
           <img src="img/borodinski.jpg" width="360" height="618" alt="barbershop">
           <div class="content2">
             <h3>Borodinski</h3>
@@ -82,7 +87,7 @@
             <a href="#"></a>
           </div>
         </div>
-        <div class="section-3">
+        <div class="section-3 container clearfix">
           <img src="img/aplus.jpg" width="360" height="618" alt="aplus">
           <div class="content3">
             <h3>A+</h3>
@@ -90,7 +95,7 @@
             <a href="#"></a>
           </div>
         </div>
-        <div class="section-4">
+        <div class="section-4 container clearfix">
           <img src="img/pink.jpg" width="360" height="618" alt="pink">
           <div class="content4">
             <h3>Pink</h3>
@@ -98,7 +103,7 @@
             <a href="#"></a>
           </div>
         </div>
-        <div class="section-5">
+        <div class="section-5 container clearfix">
           <img src="img/mishka.jpg" width="360" height="618" alt="mihka">
           <div class="content5">
             <h3>Mishka</h3>
@@ -106,7 +111,7 @@
             <a href="#"></a>
           </div>
         </div>
-        <div class="section-6">
+        <div class="section-6 container clearfix">
           <img src="img/kvast.jpg" width="360" height="618" alt="kvast">
           <div class="content6">
             <h3>Кваст</h3>
@@ -123,9 +128,10 @@
       </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="footer-content clearfix">
         <img src="img/map.jpg" width="1440" height="415" alt="map">
-        <section class="footer contacts">
+        <section class="footer-contacts">
+          <div class="container">
           <h2>NЁRDS DESING STUDIO</h2><br>
           <p>191186,Санкт-Петербург,</p> <br>
           <p>тел.+7812275-75-75</p> <br>
@@ -135,10 +141,13 @@
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-          <p class="slogan">Давайте дружить,это выгодно!</p>
-          <p>Скидка для друзей из социальных сетей.</p>
         </section>
-      </div>
+        <div class="slogan">
+          <p class="slogan-1">Давайте дружить,это выгодно!</p>
+          <p class="slogan-2">Скидка для друзей из социальных сетей.</p>
+        </div>
+        </div>
+        </div>
     </footer>
   </body>
 </html>
