@@ -168,7 +168,7 @@ height: 65px;
   width: 260px;
   height: 784px;
   float: left;
-  margin-right: 140px;
+  margin-right: 100px;
 }
 .slider{
   width: 260px;
@@ -193,7 +193,7 @@ width: 760px;
 height: 2002px;
 float: left;
 }
-span{
+.filt{
 float: left;
 width: 140px;
 height: 18px;
