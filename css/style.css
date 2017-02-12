@@ -136,25 +136,30 @@ height: 529px;
 .main-footer{
 margin-top: 80px;
 padding-bottom: 40px;
-position: relative;
 }
 .footer-content{
 width: 100%;
 height: 416px;
 object-fit: cover;
 }
-.footer-contacts{
-position: absolute;
-}
 .footer-social{
   float: left;
   width: 260px;
   height: 83px;
-  margin-right: 120px;
+}
+.footer-cont{
+position: relative;
+}
+.footer-contact{
+position: absolute;
+width: 200px;
+height: 211px;
+top: -330px;
 }
 .slogan{
 width: 580px;
 height: 65px;
+float:left;
 }
 .subtitle{
   width: 210px;
