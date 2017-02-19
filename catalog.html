@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <title>HTML Academy: Нёрдс</title>
@@ -14,47 +15,53 @@
         </div>
         <nav class="page-header-nav">
           <ul>
-            <li>Студия</li>
-            <li>Клиенты</li>
-            <li>Магазин</li>
-            <li>Контакты</li>
+            <li>СТУДИЯ</li>
+            <li>КЛИЕНТЫ</li>
+            <li class="active"><span>МАГАЗИН<span></li>
+            <li>КОНТАКТЫ</li>
           </ul>
         </nav>
         <div class="basket">
-        <a href="#">Корзина</a>
+        <a class="basket1" href="#" img href="img/cart-icon.png">КОРЗИНА</a>
         </div>
       </div>
     </header>
     <main>
-      <div class="subtitle container clearfix">
-        <h1>Магазин готовых шаблонов</h1>
+      <div class="subtitle">
+        <div class="subtitle-1">
+        <h2 class="title-1">Магазин готовых шаблонов</h2>
+      </div>
       </div>
       <div class="container clearfix">
       <div class="container-left">
         <div class="slider">
-          <p>Стоимость:</p><br>
-          <div class="filtr ">
-            <div class="stripe"></div>
-            <div class="slide-1"></div>
-            <div class="slide-2"></div>
+          <p class="cost">Стоимость:</p><br>
+          <form action="form.php" method="GET">
+     <div class="range-filter">
+       <div class="range-controls">
+         <div class="scale">
+            <div class="bar" style="margin-left: 20%; width: 30%"></div>
           </div>
-        </div>
-        <div class="widget">
-          <p>от</p>
-          <input type="text" name="1">
-          <p>до</p>
-          <input type="text" name="1">
-        </div>
+          <div class="toggle toggle-min"></div>
+          <div class="toggle toggle-max"></div>
+         </div>
+         <div class="price-controls">
+           <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+          <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+         </div>
+     </div>
+   </form>
+          </div>
         <div class="category-1">
-          <b>Сетка:</b><Br>
-          <form>
-            <input type="radio" name="cat1">Адаптивная<Br>
-            <input type="radio" name="cat2">Фиксированная<Br>
-            <input type="radio" name="cat3">Резиновая<Br>
+          <b class="mesh-1">СЕТКА:</b><Br>
+          <form class="filtr">
+            <input class="cat1" type="radio" name="cat1">      Адаптивная<Br>
+            <input class="cat2" type="radio" name="cat2"> Фиксированная<Br>
+            <input class="cat3" type="radio" name="cat3"> Резиновая<Br>
           </form>
         </div>
         <div class="category-2">
-          <b>Производители:</b><br>
+          <b class="mesh-2">ОСОБЕННОСТИ:</b><br>
           <form>
             <input type="checkbox" id="check1"><label for="check1">Слайдер</label><br>
             <input type="checkbox" id="check2"><label for="check2">Блок преимуществ</label><br>
@@ -68,63 +75,63 @@
       <div class="section container clearfix">
         <span class="filt">Сортировать:</span>
         <div class="row">
-          <a href="#">по цене</a>
-          <a href="#">по типу</a>
-          <a href="#">по названию</a>
+          <a class="row1" href="#">по цене</a>
+          <a class="row2" href="#">по типу</a>
+          <a class="row3" href="#">по названию</a>
         </div>
         <div class="section-1 container">
           <img src="img/sedona.jpg" width="360" height="618" alt="sedona">
-          <div class="content1">
-            <h3>Sedona</h3>
-            <p>Информационный сайт для туристов</p>
-            <a href="#">9900 РУБ.</a>
-          </div>
+          <section class="content1">
+            <h3 class="sedona">Sedona</h3>
+            <p class="info1">Информационный сайт<br> для туристов</p>
+            <a class="butt1" href="#">9900 РУБ.</a>
+          </section>
         </div>
         <div class="section-2 container">
           <img src="img/borodinski.jpg" width="360" height="618" alt="barbershop">
-          <div class="content2">
-            <h3>Borodinski</h3>
-            <p></p>
-            <a href="#"></a>
-          </div>
+          <section class="content2">
+            <h3 class="borodinski">Barbershop</h3>
+            <p class="info2">Сайт салоны красоты.<br>Для мужчин,да. </p>
+            <a class="butt2" href="#">9900 РУБ.</a>
+          </section>
         </div>
         <div class="section-3 container">
           <img src="img/aplus.jpg" width="360" height="618" alt="aplus">
-          <div class="content3">
-            <h3>A+</h3>
-            <p></p>
-            <a href="#"></a>
-          </div>
+          <section class="content3">
+            <h3 class="Aplus">A plus</h3>
+            <p class="info3">Лендинг курсов повышения квалификации.</p>
+            <a class="butt3" href="#">9900 РУБ.</a>
+          </section>
         </div>
         <div class="section-4 container">
           <img src="img/pink.jpg" width="360" height="618" alt="pink">
-          <div class="content4">
-            <h3>Pink</h3>
-            <p></p>
-            <a href="#"></a>
-          </div>
+          <section class="content4">
+            <h3 class="Pink">Pink App</h3>
+            <p class="info4">Продуктовый лендинг приложения<br> для IOS и Android</p>
+            <a class="butt4" href="#">9900 РУБ.</a>
+          </section>
         </div>
         <div class="section-5 container">
           <img src="img/mishka.jpg" width="360" height="618" alt="mihka">
-          <div class="content5">
-            <h3>Mishka</h3>
-            <p></p>
-            <a href="#"></a>
-          </div>
+          <section class="content5">
+            <h3 class="MISHKA">Mishka</h3>
+            <p class="info5">Интернет-магазин вязанных игрушек</p>
+            <a class="butt5" href="#">9900 РУБ.</a>
+          </section>
         </div>
         <div class="section-6 container">
           <img src="img/kvast.jpg" width="360" height="618" alt="kvast">
-          <div class="content6">
-            <h3>Кваст</h3>
-            <p></p>
-            <a href="#"></a>
-          </div>
+          <section class="content6">
+            <h3 class="kvast">КВАСТ</h3>
+            <p class="info6">Промо-сайт производителя<br> крафтового кваса</p>
+            <a class="butt6" href="#">9900 РУБ.</a>
+          </section>
         </div>
-        <div class="btn">
-          <a href="#">1</a>
-          <a href="#">2</a>
-          <a href="#">3</a>
-          <a href="#">Следующая</a>
+        <div class="btn clearfix">
+          <a class="btn1" href="#">1</a>
+          <a class="btn2" href="#">2</a>
+          <a class="btn3" href="#">3</a>
+          <a class="btn4" href="#">Следующая</a>
         </div>
         </div>
       </div>
@@ -134,11 +141,14 @@
         <img src="img/map.jpg" width="100%" height="415" alt="map">
         <div class="container footer-cont">
         <section class="footer-contact">
-          <h2>NЁRDS DESING STUDIO</h2><br>
-          <p>191186,Санкт-Петербург,</p> <br>
-          <p>тел.+7812275-75-75</p> <br>
-          <a href="#">Напишите нам</a>
+          <h2 class="contact-1">NЁRDS DESING STUDIO</h2>
+          <p class="contact-2">191186,Санкт-Петербург,<br>ул.Б.Конюшенная,д.19/8</p><br>
+          <p class="contact-3">тел.+7812275-75-75</p> <br>
+          <a class="contact-4" href="#">Напишите нам</a>
         </section>
+        <div class="label">
+          <img src="img/map-marker.png" alt="label">
+        </div>
         <section class="footer-social">
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
