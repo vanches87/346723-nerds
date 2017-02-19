@@ -15,14 +15,14 @@
         </div>
         <nav class="page-header-nav">
           <ul>
-            <li>СТУДИЯ</li>
-            <li>КЛИЕНТЫ</li>
-            <li class="active"><span>МАГАЗИН<span></li>
-            <li>КОНТАКТЫ</li>
+            <li><a href="#">СТУДИЯ</a></li>
+            <li><a href="#">КЛИЕНТЫ</a></li>
+            <li class="active"><span><a href="#">МАГАЗИН</a></span></li>
+            <li><a href="#">КОНТАКТЫ</a></li>
           </ul>
         </nav>
         <div class="basket">
-        <a class="basket1" href="#" img href="img/cart-icon.png">КОРЗИНА</a>
+        <a class="basket1" href="img/cart-icon.png">КОРЗИНА</a>
         </div>
       </div>
     </header>
@@ -35,12 +35,12 @@
       <div class="container clearfix">
       <div class="container-left">
         <div class="slider">
-          <p class="cost">Стоимость:</p><br>
+          <p class="cost">СТОИМОСТЬ:</p><br>
           <form action="form.php" method="GET">
      <div class="range-filter">
        <div class="range-controls">
          <div class="scale">
-            <div class="bar" style="margin-left: 20%; width: 30%"></div>
+            <div class="bar" style="margin-left: 8%; width: 47%"></div>
           </div>
           <div class="toggle toggle-min"></div>
           <div class="toggle toggle-max"></div>
@@ -55,25 +55,25 @@
         <div class="category-1">
           <b class="mesh-1">СЕТКА:</b><Br>
           <form class="filtr">
-            <input class="cat1" type="radio" name="cat1">      Адаптивная<Br>
-            <input class="cat2" type="radio" name="cat2"> Фиксированная<Br>
-            <input class="cat3" type="radio" name="cat3"> Резиновая<Br>
+            <input class="cat1" type="radio" name="cat" id="cat1" value="1" checked><label for="cat1">Адаптивная</label><Br>
+            <input class="cat2" type="radio" name="cat" id="cat2" value="2"><label for="cat2">Фиксированная</label><Br>
+            <input class="cat3" type="radio" name="cat" id="cat3" value="3"><label for="cat3">Резиновая</label><Br>
           </form>
         </div>
         <div class="category-2">
           <b class="mesh-2">ОСОБЕННОСТИ:</b><br>
           <form>
-            <input type="checkbox" id="check1"><label for="check1">Слайдер</label><br>
-            <input type="checkbox" id="check2"><label for="check2">Блок преимуществ</label><br>
-            <input type="checkbox" id="check3"><label for="check3">Новости</label><br>
-            <input type="checkbox" id="check4"><label for="check4">Галерея</label><br>
-            <input type="checkbox" id="check5"><label for="check5">Корзина</label><br>
+            <input type="checkbox" id="check1" checked><label for="check1"> Слайдер</label><br>
+            <input type="checkbox" id="check2"><label for="check2"> Блок преимуществ</label><br>
+            <input type="checkbox" id="check3" checked><label for="check3"> Новости</label><br>
+            <input type="checkbox" id="check4"><label for="check4"> Галерея</label><br>
+            <input type="checkbox" id="check5"><label for="check5"> Корзина</label><br>
             <input type="submit" value="показать">
           </form>
         </div>
       </div>
       <div class="section container clearfix">
-        <span class="filt">Сортировать:</span>
+        <span class="filt">СОРТИРОВАТЬ:</span>
         <div class="row">
           <a class="row1" href="#">по цене</a>
           <a class="row2" href="#">по типу</a>
@@ -138,7 +138,7 @@
     </main>
     <footer class="main-footer">
       <div class="footer-content clearfix">
-        <img src="img/map.jpg" width="100%" height="415" alt="map">
+        <img src="img/map.jpg" width="1349" height="415" alt="map">
         <div class="container footer-cont">
         <section class="footer-contact">
           <h2 class="contact-1">NЁRDS DESING STUDIO</h2>
@@ -156,11 +156,10 @@
         </section>
         <div class="slogan">
           <p class="slogan-1">Давайте дружить,это выгодно!</p>
-          <p class="slogan-2">Скидка для друзей из социальных сетей.</p>
+          <p class="slogan-2">Скидка 10% для друзей из социальных сетей.</p>
         </div>
         </div>
         </div>
-      </div>
     </footer>
   </body>
 </html>
