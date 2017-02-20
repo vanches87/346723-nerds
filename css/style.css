@@ -88,6 +88,11 @@ h2{
   float: left;
   padding: 0 30px;
 }
+.page-header-nav a{
+text-decoration: none;
+color: #000000;
+
+}
 .basket1{
   float: right;
   font-family: 'Roboto', 'Arial', sans-serif;
@@ -101,10 +106,15 @@ h2{
 .slider-wrapper1{
   width: 698px;
   float: right;
-
-
 }
-.slider-wrapper1 i{
+.slid-nav{
+width: 91px;
+height: 20px;
+position: absolute;
+bottom: 95px;
+left: 643px;
+}
+.slid-nav i{
     display:inline-block;
     width:4px;
     height:4px;
@@ -114,9 +124,8 @@ h2{
     vertical-align:top;
     border-radius:50%;
     cursor:pointer;
-    position: absolute;
 }
-.slider-wrapper1 .active1{
+.slid-nav .active{
     background:#c1c1c1;
 }
 .slide{
@@ -388,9 +397,9 @@ h2{
   display: block;
   background-color:#ffffff;
   text-transform: uppercase;
-  text-align: center;
   line-height: 20px;
   left: 22px;
+  padding-left: 50px;
 }
 .contact-1{
   font-family: 'Roboto', 'Arial', sans-serif;
@@ -421,8 +430,7 @@ h2{
   text-align: center;
   font-size: 16px;
   color: #fff;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 .social-btn-vk{
   display: inline-block;
@@ -594,6 +602,7 @@ input[type="submit"] {
   width: 260px;
   height: 50px;
   background-color: #eeeeee;
+  border: none;
   border-radius: 3px;
   text-transform: uppercase;
   text-decoration: none;
@@ -642,6 +651,9 @@ input[type="checkbox"] + label {
  position: relative;
  cursor: pointer;
 }
+input[type="checkbox"]:checked + label::before {
+  display: none;
+}
 input[type="checkbox"] + label::before {
 content: "";
 display: block;
@@ -677,6 +689,9 @@ input[type="radio"] + label {
  position: relative;
  cursor: pointer;
 }
+input[type="radio"]:checked + label::before {
+  display: none;
+}
 input[type="radio"] + label::before {
 content: "";
 display: block;
@@ -702,6 +717,7 @@ input[type="radio"]:checked + label::after {
  background-position: -10px -141px;
  opacity: 0.5;
 }
+
 .sprite {
     background-image: url(../img/sprite.png);
     background-repeat: no-repeat;
@@ -1087,7 +1103,7 @@ form{
   border-radius: 3px;
   text-transform: uppercase;
   text-decoration: none;
-  line-height: 47px;
+  line-height: 42px;
   font-family: 'Roboto', 'Arial', sans-serif;
   text-align: center;
   font-size: 16px;
@@ -1149,4 +1165,10 @@ form{
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 55px;
   font-weight: bold;
+}
+.footer-map{
+width: 1440px;
+margin-left: auto;
+margin-right: auto;
+
 }
