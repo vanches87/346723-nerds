@@ -35,7 +35,7 @@ h2{
   float: right;
   width: 114px;
   min-height: 70px;
-  margin-top: 80px;
+  margin-top: 91px;
   font-family: 'Roboto', 'Arial', sans-serif;
    vertical-align: top;
    text-decoration: none;
@@ -63,9 +63,8 @@ h2{
   float: left;
   width: 220px;
   height: 100px;
-  margin-top: 50px;
+  margin-top: 60px;
   background:#eeeeee;
-  margin-left: 43px;
 }
 .page-header{
   background:#eeeeee;
@@ -73,8 +72,8 @@ h2{
 .page-header-nav{
   height: 70px;
   float: left;
-  margin-top: 80px;
-  margin-left: 90px;
+  margin-top: 92px;
+  margin-left: 99px;
   font-family: 'Roboto', 'Arial', sans-serif;
   background:#eeeeee;
   font-weight:bold;
@@ -108,7 +107,7 @@ color: #000000;
   float: right;
 }
 .slid-nav{
-width: 91px;
+width: 96px;
 height: 20px;
 position: absolute;
 bottom: 95px;
@@ -118,9 +117,9 @@ left: 643px;
     display:inline-block;
     width:4px;
     height:4px;
-    margin:0 7px;
+    margin:0 5px;
     background:white;
-    border:3px solid white;
+    border:5px solid white;
     vertical-align:top;
     border-radius:50%;
     cursor:pointer;
@@ -131,6 +130,40 @@ left: 643px;
 .slide{
   width: 380px;
   float: left;
+}
+.slider-wrapper2{
+  width: 698px;
+  float: right;
+  display: none;
+}
+.slid-nav2{
+width: 91px;
+height: 20px;
+position: absolute;
+bottom: 95px;
+left: 643px;
+display: none;
+}
+.slide2{
+  width: 380px;
+  float: left;
+  display: none;
+}
+.slider-wrapper3{
+  width: 698px;
+  float: right;
+  display: none;
+}
+.slid-nav3{
+width: 91px;
+height: 20px;
+position: absolute;
+bottom: 95px;
+left: 643px;
+display: none;
+}
+.slide3 {
+  display: none;
 }
 .losung1{
   font-family: 'Roboto', 'Arial', sans-serif;
@@ -170,11 +203,13 @@ left: 643px;
   float: left;
   width: 350px;
   height: 300px;
+  margin-left: 51px;
 }
 .widget-3{
   float: left;
   width: 350px;
   height: 300px;
+  margin-left: 47px;
 }
 .item1{
   font-family: 'Roboto', 'Arial', sans-serif;
@@ -204,6 +239,7 @@ left: 643px;
   text-align: center;
   font-size: 16px;
   color: #fff;
+  margin-top: 40px;
 }
 .button3{
   display: block;
@@ -218,6 +254,7 @@ left: 643px;
   text-align: center;
   font-size: 16px;
   color: #fff;
+  margin-top: 40px;
 }
 .button4{
   display: block;
@@ -232,6 +269,7 @@ left: 643px;
   text-align: center;
   font-size: 16px;
   color: #fff;
+  margin-top: 40px;
 }
 .content{
   font-family: 'Roboto', 'Arial', sans-serif;
@@ -259,6 +297,7 @@ left: 643px;
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 45px;
   font-weight:bold;
+  padding-top: 21px;
 }
 .content-9{
   font-family: 'Roboto', 'Arial', sans-serif;
@@ -285,6 +324,7 @@ left: 643px;
   float: left;
   margin-bottom:60px;
   margin-left: 140px;
+  margin-top: 38px;
 }
 .promo{
   width: 1160px;
@@ -293,6 +333,7 @@ left: 643px;
   border-top-style:solid;
   border-bottom-style: solid;
   opacity: 0.3;
+  margin-top: 14px;
 }
 .img-promo-1{
   width: 260px;
@@ -318,6 +359,8 @@ left: 643px;
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 16px;
   font-weight: bold;
+  padding-top: 17px;
+  padding-left: 15px;
 }
 
 .aside-1{
@@ -398,7 +441,6 @@ left: 643px;
   background-color:#ffffff;
   text-transform: uppercase;
   line-height: 20px;
-  left: 22px;
   padding-left: 50px;
 }
 .contact-1{
@@ -519,9 +561,8 @@ left: 643px;
   width: 260px;
   height: 784px;
   float: left;
-  margin-right: 90px;
+  margin-right: 137px;
   margin-top: 30px;
-  margin-left: 45px;
 }
 .slider{
   width: 260px;
@@ -597,7 +638,7 @@ input[type="checkbox"] {
   margin-top: 10px;
 }
 input[type="submit"] {
-  margin-top: 47px;
+  margin-top: 27px;
   display: block;
   width: 260px;
   height: 50px;
@@ -623,9 +664,7 @@ input[type="submit"] {
   height: 226px;
   margin-top: 53px;
 }
-.filtr{
-  padding-top: 26px;
-}
+
 .cat1{
   margin-bottom: 20px;
 }
@@ -780,25 +819,29 @@ form{
   height: 18px;
   position: relative;
   display: inline-block;
+  margin-top: 3px;
+  margin-left: 7px;
 }
 .row::before {
   content: "";
   position: absolute;
-  right: 63px;
+  right: 18px;
   width: 18px;
   height: 18px;
   background-position: -1px -15px;
   background: transparent url(../img/sort-down.png) no-repeat;
+  top:5px;
 }
   .row1::before {
   content: "";
   position: absolute;
-  right: 20px;
+  right: -11px;
   width: 18px;
   height: 18px;
   opacity: 0.3;
   background-position: -1px -15px;
   background: transparent url(../img/sort-up.png) no-repeat;
+  top: 5px;
 }
 .row1{
   text-decoration: none;
@@ -1091,7 +1134,7 @@ form{
   height: 54px;
   float: left;
   margin-top: 61px;
-  margin-left: 40px;
+  margin-left: 2px;
 }
 .btn1{
   display: block;
